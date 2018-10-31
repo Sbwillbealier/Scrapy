@@ -5,7 +5,7 @@
 @file:MySQLPipeline.py
 @desc:
 """
-import pymysql.cursors
+import pymysql
 
 
 # 编写MySQL存储插件：MySQLPipeline.py
@@ -13,7 +13,7 @@ class MySQLPipeline(object):
     def __init__(self):
         # 连接数据库
         self.connect = pymysql.connect(
-            host='127.0.0.1',
+            host='106.14.173.118',
             port=3306,
             db='scrapyMysql',
             user='root',
