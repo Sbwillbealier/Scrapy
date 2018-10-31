@@ -11,4 +11,7 @@
 - [scrapy1.5中文文档](http://www.scrapyd.cn/doc/)
 
 ## 包含下列
-- 豆瓣TOP250
+
+- scrapysider: 豆瓣TOP250，scrapy中文网站
+- scrapyMysql：scrapy连接数据库 
+- scrapybufanshangye：爬 [不凡商业网站](https://www.bufanbiz.com/) 新闻
